@@ -56,9 +56,9 @@ export default function ToolbarMenu() {
     return (
         <Dropdown
             contentClassName={styles.dropdown}
-            renderContent={({ onClose }) => (
+            renderContent={() => (
                 <NavigableMenu className={styles.menu}>
-                    <section role="list" onClickCapture={onClose}>
+                    <section role="list">
                         <MenuItem icon="trash" onClick={removeAllCitations}>
                             {__(
                                 'Remove all citations',
