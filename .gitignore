@@ -5,3 +5,5 @@ NOTES.md
 TODO.md
 .env
 src/languages/*.pot
+.DS_Store
+*.zip
