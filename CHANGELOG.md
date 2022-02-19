@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 5.2.3
+
+-   Fix event bubbling error causing dialog not to show.
+
 ## 5.2.2
 
 ### Patches
